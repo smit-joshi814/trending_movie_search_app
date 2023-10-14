@@ -1,16 +1,12 @@
 # movie_app
 
-A new Flutter project.
+trending movie search app
 
 ## Getting Started
+**Screenshots**
 
-This project is a starting point for a Flutter application.
+![Screenshot_1697221241](https://github.com/smit-joshi814/trending_movie_search_app/assets/45530965/0fcf6c2d-b86d-4048-b42b-1fe734b6e681)
 
-A few resources to get you started if this is your first Flutter project:
+![Screenshot_1697221275](https://github.com/smit-joshi814/trending_movie_search_app/assets/45530965/aa4323bd-3495-4402-8c80-2bff7261776e)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![Screenshot_1697221343](https://github.com/smit-joshi814/trending_movie_search_app/assets/45530965/721d1057-e436-4f75-aa1d-deb1c37375cc)
