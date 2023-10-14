@@ -61,6 +61,7 @@ class _HomeScreenState extends State<HomeScreen> {
       appBar: AppBar(
         title: const Text('Top Rated Movies'),
         leading: IconButton(
+          tooltip: 'Favorites',
           onPressed: () {
             widget.favoritesManager
                 .getFavoriteMovies()
