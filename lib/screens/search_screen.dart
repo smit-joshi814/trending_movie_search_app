@@ -37,34 +37,37 @@ class _SearchScreenState extends State<SearchScreen> {
         children: <Widget>[
           SingleChildScrollView(
             scrollDirection: Axis.horizontal,
-            child: Row(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: <Widget>[
-                const SizedBox(width: 20),
-                ElevatedButton(
-                  onPressed: () {
-                    // Sort movies by year.
-                    sortMoviesByYear();
-                  },
-                  child: const Text('Sort by Year'),
-                ),
-                const SizedBox(width: 20),
-                ElevatedButton(
-                  onPressed: () {
-                    // Sort movies by popularity.
-                    sortMoviesByPopularity();
-                  },
-                  child: const Text('Sort by Popularity'),
-                ),
-                const SizedBox(width: 20),
-                ElevatedButton(
-                  onPressed: () {
-                    // Sort movies by IMDb rating.
-                    sortMoviesByImdbRating();
-                  },
-                  child: const Text('Sort by IMDB Rating'),
-                ),
-              ],
+            child: Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: <Widget>[
+                  const SizedBox(width: 20),
+                  ElevatedButton(
+                    onPressed: () {
+                      // Sort movies by year.
+                      sortMoviesByYear();
+                    },
+                    child: const Text('Sort by Year'),
+                  ),
+                  const SizedBox(width: 20),
+                  ElevatedButton(
+                    onPressed: () {
+                      // Sort movies by popularity.
+                      sortMoviesByPopularity();
+                    },
+                    child: const Text('Sort by Popularity'),
+                  ),
+                  const SizedBox(width: 20),
+                  ElevatedButton(
+                    onPressed: () {
+                      // Sort movies by IMDb rating.
+                      sortMoviesByImdbRating();
+                    },
+                    child: const Text('Sort by IMDB Rating'),
+                  ),
+                ],
+              ),
             ),
           ),
           Expanded(
